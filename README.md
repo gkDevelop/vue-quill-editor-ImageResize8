@@ -6,12 +6,12 @@ vue-quill-editor框架下ImageResize支持图片8个方向收缩
 import ImageResize8 from './ImageResize8.js' <br>
 Quill.register('modules/ImageResize8', ImageResize8)<br>
 
-editorOption: {<br>
+editorOption: {
   ...,<br>
-  modules: {<br>
+  modules: {
     ...,<br>
-     imageResize8: {<br>
-       handlecolor: 'red',<br>
-    }<br>
-  }<br>
+     imageResize8: {
+       handlecolor: 'red',
+    }
+  }
 }
